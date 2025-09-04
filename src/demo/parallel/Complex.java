@@ -105,4 +105,13 @@ public class Complex {
         im *= k;
         return this;
     }
+
+    public double getRe() {
+        return re;
+    }
+
+    public double getIm() {
+        return im;
+    }
+
 }
